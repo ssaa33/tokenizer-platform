@@ -1,0 +1,36 @@
+'use client';
+
+export default function Header() {
+  return (
+    <header className="border-b border-slate-700 bg-slate-900/80 backdrop-blur-sm sticky top-0 z-50">
+      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+        {/* Logo */}
+        <div className="flex items-center gap-2">
+          <span className="text-3xl">🧊</span>
+          <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+            Tokenizer
+          </h1>
+        </div>
+
+        {/* Navegación */}
+        <nav className="hidden md:flex gap-6">
+          <a href="#" className="text-slate-300 hover:text-white transition">
+            Mercado
+          </a>
+          <a href="#" className="text-slate-300 hover:text-white transition">
+            Cómo Funciona
+          </a>
+          <a href="#" className="text-slate-300 hover:text-white transition">
+            Para Vendedores
+          </a>
+        </nav>
+
+        {/* Botón Conectar */}
+        <button className="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-lg font-semibold transition flex items-center gap-2">
+          <span>🦊</span>
+          Conectar Billetera
+        </button>
+      </div>
+    </header>
+  );
+}
