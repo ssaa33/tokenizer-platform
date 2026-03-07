@@ -14,14 +14,17 @@ export default function Header() {
 
         {/* Navegación */}
         <nav className="hidden md:flex gap-6">
-          <a href="#" className="text-slate-300 hover:text-white transition">
+          <a href="/" className="text-slate-300 hover:text-white transition">
             Mercado
           </a>
-          <a href="#" className="text-slate-300 hover:text-white transition">
+          <a href="/que-es-tokenizacion" className="text-slate-300 hover:text-white transition">
+            Qué es Tokenización
+          </a>
+          <a href="/como-funciona" className="text-slate-300 hover:text-white transition">
             Cómo Funciona
           </a>
-          <a href="#" className="text-slate-300 hover:text-white transition">
-            Para Vendedores
+          <a href="/guia-metamask" className="text-slate-300 hover:text-white transition">
+            Guía MetaMask
           </a>
         </nav>
 
