@@ -1,5 +1,7 @@
 'use client';
 
+import { ConnectButton } from '@rainbow-me/rainbowkit';
+
 export default function Header() {
   return (
     <header className="border-b border-slate-700 bg-slate-900/80 backdrop-blur-sm sticky top-0 z-50">
@@ -28,11 +30,12 @@ export default function Header() {
           </a>
         </nav>
 
-        {/* Botón Conectar */}
-        <button className="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-lg font-semibold transition flex items-center gap-2">
-          <span>🦊</span>
-          Conectar Billetera
-        </button>
+        {/* Botón de conexión Web3 REAL */}
+        <ConnectButton 
+          showBalance={false}
+          chainStatus="icon"
+          label="Conectar Billetera"
+        />
       </div>
     </header>
   );
