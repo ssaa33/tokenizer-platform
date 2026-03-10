@@ -135,16 +135,21 @@ export default function Marketplace() {
           {filteredAssets.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {filteredAssets.map((asset) => (
-                <AssetCard
-                  key={asset.id}
-                  image={asset.image}
-                  category={asset.category}
-                  title={asset.title}
-                  value={asset.value}
-                  financed={asset.financed}
-                  color={asset.color}
-                />
-              ))}
+  <a 
+    key={asset.id}
+    href={`/asset/${asset.id}`}
+    className="block hover:scale-105 transition"
+  >
+    <AssetCard
+      image={asset.image}
+      category={asset.category}
+      title={asset.title}
+      value={asset.value}
+      financed={asset.financed}
+      color={asset.color}
+    />
+  </a>
+))}
             </div>
           ) : (
             <div className="text-center py-20">
