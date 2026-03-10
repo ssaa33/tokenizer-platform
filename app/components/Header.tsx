@@ -16,7 +16,7 @@ export default function Header() {
 
         {/* Navegación */}
         <nav className="hidden md:flex gap-6">
-          <a href="/" className="text-slate-300 hover:text-white transition">
+          <a href="/marketplace" className="text-slate-300 hover:text-white transition">
             Mercado
           </a>
           <a href="/que-es-tokenizacion" className="text-slate-300 hover:text-white transition">
