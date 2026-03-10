@@ -54,7 +54,7 @@ export default function Home() {
             <h3 className="text-3xl font-bold text-center mb-10">Activos Destacados</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <AssetCard 
-                icon="🏠"
+                image="/images/mansion.jpg"
                 category="Bienes Raíces"
                 title="Mansión Frente al Mar Malibú"
                 value="$12.5M"
@@ -62,7 +62,7 @@ export default function Home() {
                 color="blue"
               />
               <AssetCard 
-                icon="⌚"
+                image="/images/reloj.jpg"
                 category="Coleccionable"
                 title="Patek Philippe Nautilus"
                 value="$145k"
@@ -70,7 +70,7 @@ export default function Home() {
                 color="purple"
               />
               <AssetCard 
-                icon="🎨"
+                image="/images/arte.jpg"
                 category="Arte"
                 title='Banksy - "Love is in the Air"'
                 value="$12.1M"
