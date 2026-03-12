@@ -1,0 +1,59 @@
+{
+  "Header": {
+    "marketplace": "Marketplace",
+    "whatIsTokenization": "What is Tokenization",
+    "howItWorks": "How It Works",
+    "metamaskGuide": "MetaMask Guide",
+    "connectWallet": "Connect Wallet"
+  },
+  "Home": {
+    "liveOnEthereum": "Live on Ethereum Mainnet",
+    "title": "Tokenize and Sell Real Assets to the World",
+    "subtitle": "The simplest, safest and most economical platform to transform real-world objects into digital assets. Access a global market without barriers.",
+    "exploreMarket": "Explore Market",
+    "startTokenizing": "Start Tokenizing",
+    "totalValueLocked": "Total Value Locked",
+    "tokenizedAssets": "Tokenized Assets",
+    "activeInvestors": "Active Investors",
+    "featuredAssets": "Featured Assets",
+    "investNow": "Invest Now"
+  },
+  "Marketplace": {
+    "title": "Marketplace",
+    "subtitle": "Explore all tokenized assets available for investment",
+    "searchPlaceholder": "Search assets...",
+    "all": "All",
+    "realEstate": "Real Estate",
+    "collectible": "Collectible",
+    "art": "Art",
+    "showing": "Showing",
+    "of": "of",
+    "assets": "assets",
+    "noResults": "No assets found",
+    "tryOtherFilters": "Try other filters or search terms"
+  },
+  "AssetDetail": {
+    "backToMarketplace": "Back to Marketplace",
+    "fundingProgress": "Funding Progress",
+    "remaining": "Remaining",
+    "toComplete": "to complete",
+    "location": "Location",
+    "year": "Year",
+    "expectedReturn": "Expected Return",
+    "period": "Period",
+    "minimumInvestment": "Minimum Investment",
+    "investNow": "Invest Now",
+    "connectWalletToInvest": "Connect your wallet to start investing",
+    "whyInvest": "Why invest in this asset?",
+    "highPotential": "High Potential",
+    "highPotentialDesc": "Returns above traditional market",
+    "security": "Security",
+    "securityDesc": "Verified and legally backed asset",
+    "liquidity": "Liquidity",
+    "liquidityDesc": "Sell your tokens anytime"
+  },
+  "Footer": {
+    "createdBy": "Created by Sam And33",
+    "github": "GitHub"
+  }
+}

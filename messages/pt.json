@@ -1,0 +1,59 @@
+{
+  "Header": {
+    "marketplace": "Mercado",
+    "whatIsTokenization": "O que é Tokenização",
+    "howItWorks": "Como Funciona",
+    "metamaskGuide": "Guia MetaMask",
+    "connectWallet": "Conectar Carteira"
+  },
+  "Home": {
+    "liveOnEthereum": "Ao vivo na Ethereum Mainnet",
+    "title": "Tokenize e Venda Ativos Reais para o Mundo",
+    "subtitle": "A plataforma mais simples, segura e econômica para transformar objetos do mundo real em ativos digitais. Acesse um mercado global sem barreiras.",
+    "exploreMarket": "Explorar Mercado",
+    "startTokenizing": "Começar a Tokenizar",
+    "totalValueLocked": "Valor Total Bloqueado",
+    "tokenizedAssets": "Ativos Tokenizados",
+    "activeInvestors": "Investidores Ativos",
+    "featuredAssets": "Ativos em Destaque",
+    "investNow": "Investir Agora"
+  },
+  "Marketplace": {
+    "title": "Mercado",
+    "subtitle": "Explore todos os ativos tokenizados disponíveis para investimento",
+    "searchPlaceholder": "Buscar ativos...",
+    "all": "Todos",
+    "realEstate": "Imóveis",
+    "collectible": "Colecionável",
+    "art": "Arte",
+    "showing": "Mostrando",
+    "of": "de",
+    "assets": "ativos",
+    "noResults": "Nenhum ativo encontrado",
+    "tryOtherFilters": "Tente outros filtros ou termos de busca"
+  },
+  "AssetDetail": {
+    "backToMarketplace": "Voltar ao Mercado",
+    "fundingProgress": "Progresso do Financiamento",
+    "remaining": "Falta",
+    "toComplete": "para completar",
+    "location": "Localização",
+    "year": "Ano",
+    "expectedReturn": "Retorno Esperado",
+    "period": "Período",
+    "minimumInvestment": "Investimento Mínimo",
+    "investNow": "Investir Agora",
+    "connectWalletToInvest": "Conecte sua carteira para começar a investir",
+    "whyInvest": "Por que investir neste ativo?",
+    "highPotential": "Alto Potencial",
+    "highPotentialDesc": "Retornos superiores ao mercado tradicional",
+    "security": "Segurança",
+    "securityDesc": "Ativo verificado e respaldado legalmente",
+    "liquidity": "Liquidez",
+    "liquidityDesc": "Venda seus tokens quando quiser"
+  },
+  "Footer": {
+    "createdBy": "Criado por Sam And33",
+    "github": "GitHub"
+  }
+}
